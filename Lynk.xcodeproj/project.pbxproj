@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02835CC31E99CE040060E28F /* MainVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02835CC21E99CE040060E28F /* MainVCModel.swift */; };
+		02835CC51E99D2420060E28F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02835CC41E99D2420060E28F /* DataModel.swift */; };
+		02835CC81E99D9690060E28F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02835CC71E99D9690060E28F /* TableViewCell.swift */; };
+		02C5161F1E99C44600392D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5161E1E99C44600392D3F /* AppDelegate.swift */; };
+		02C516211E99C44600392D3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C516201E99C44600392D3F /* MainViewController.swift */; };
+		02C516241E99C44600392D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C516221E99C44600392D3F /* Main.storyboard */; };
+		02C516271E99C44600392D3F /* Lynk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02C516251E99C44600392D3F /* Lynk.xcdatamodeld */; };
+		02C516291E99C44600392D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C516281E99C44600392D3F /* Assets.xcassets */; };
+		02C5162C1E99C44600392D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C5162A1E99C44600392D3F /* LaunchScreen.storyboard */; };
+		02C516371E99C44600392D3F /* LynkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C516361E99C44600392D3F /* LynkTests.swift */; };
+		02C516421E99C44600392D3F /* LynkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C516411E99C44600392D3F /* LynkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C516331E99C44600392D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C516131E99C44600392D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C5161A1E99C44600392D3F;
+			remoteInfo = Lynk;
+		};
+		02C5163E1E99C44600392D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C516131E99C44600392D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C5161A1E99C44600392D3F;
+			remoteInfo = Lynk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02835CC21E99CE040060E28F /* MainVCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVCModel.swift; sourceTree = "<group>"; };
+		02835CC41E99D2420060E28F /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		02835CC71E99D9690060E28F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		02C5161B1E99C44600392D3F /* Lynk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C5161E1E99C44600392D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C516201E99C44600392D3F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		02C516231E99C44600392D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C516261E99C44600392D3F /* Lynk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lynk.xcdatamodel; sourceTree = "<group>"; };
+		02C516281E99C44600392D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C5162B1E99C44600392D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C5162D1E99C44600392D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C516321E99C44600392D3F /* LynkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LynkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C516361E99C44600392D3F /* LynkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynkTests.swift; sourceTree = "<group>"; };
+		02C516381E99C44600392D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C5163D1E99C44600392D3F /* LynkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LynkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C516411E99C44600392D3F /* LynkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynkUITests.swift; sourceTree = "<group>"; };
+		02C516431E99C44600392D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C516181E99C44600392D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C5162F1E99C44600392D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C5163A1E99C44600392D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02835CC61E99D95D0060E28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02835CC71E99D9690060E28F /* TableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		02835CC91E99DEC40060E28F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		02C516121E99C44600392D3F = {
+			isa = PBXGroup;
+			children = (
+				02C5161D1E99C44600392D3F /* Lynk */,
+				02C516351E99C44600392D3F /* LynkTests */,
+				02C516401E99C44600392D3F /* LynkUITests */,
+				02C5161C1E99C44600392D3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C5161C1E99C44600392D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C5161B1E99C44600392D3F /* Lynk.app */,
+				02C516321E99C44600392D3F /* LynkTests.xctest */,
+				02C5163D1E99C44600392D3F /* LynkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C5161D1E99C44600392D3F /* Lynk */ = {
+			isa = PBXGroup;
+			children = (
+				02835CC91E99DEC40060E28F /* New Group */,
+				02835CC61E99D95D0060E28F /* View */,
+				02C516501E99C46E00392D3F /* Model */,
+				02C5164F1E99C46400392D3F /* Controller */,
+				02C5161E1E99C44600392D3F /* AppDelegate.swift */,
+				02C516221E99C44600392D3F /* Main.storyboard */,
+				02C516281E99C44600392D3F /* Assets.xcassets */,
+				02C5162A1E99C44600392D3F /* LaunchScreen.storyboard */,
+				02C5162D1E99C44600392D3F /* Info.plist */,
+				02C516251E99C44600392D3F /* Lynk.xcdatamodeld */,
+			);
+			path = Lynk;
+			sourceTree = "<group>";
+		};
+		02C516351E99C44600392D3F /* LynkTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C516361E99C44600392D3F /* LynkTests.swift */,
+				02C516381E99C44600392D3F /* Info.plist */,
+			);
+			path = LynkTests;
+			sourceTree = "<group>";
+		};
+		02C516401E99C44600392D3F /* LynkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02C516411E99C44600392D3F /* LynkUITests.swift */,
+				02C516431E99C44600392D3F /* Info.plist */,
+			);
+			path = LynkUITests;
+			sourceTree = "<group>";
+		};
+		02C5164F1E99C46400392D3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02C516201E99C44600392D3F /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		02C516501E99C46E00392D3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02835CC21E99CE040060E28F /* MainVCModel.swift */,
+				02835CC41E99D2420060E28F /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C5161A1E99C44600392D3F /* Lynk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C516461E99C44600392D3F /* Build configuration list for PBXNativeTarget "Lynk" */;
+			buildPhases = (
+				02C516171E99C44600392D3F /* Sources */,
+				02C516181E99C44600392D3F /* Frameworks */,
+				02C516191E99C44600392D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lynk;
+			productName = Lynk;
+			productReference = 02C5161B1E99C44600392D3F /* Lynk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C516311E99C44600392D3F /* LynkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C516491E99C44600392D3F /* Build configuration list for PBXNativeTarget "LynkTests" */;
+			buildPhases = (
+				02C5162E1E99C44600392D3F /* Sources */,
+				02C5162F1E99C44600392D3F /* Frameworks */,
+				02C516301E99C44600392D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C516341E99C44600392D3F /* PBXTargetDependency */,
+			);
+			name = LynkTests;
+			productName = LynkTests;
+			productReference = 02C516321E99C44600392D3F /* LynkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02C5163C1E99C44600392D3F /* LynkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C5164C1E99C44600392D3F /* Build configuration list for PBXNativeTarget "LynkUITests" */;
+			buildPhases = (
+				02C516391E99C44600392D3F /* Sources */,
+				02C5163A1E99C44600392D3F /* Frameworks */,
+				02C5163B1E99C44600392D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C5163F1E99C44600392D3F /* PBXTargetDependency */,
+			);
+			name = LynkUITests;
+			productName = LynkUITests;
+			productReference = 02C5163D1E99C44600392D3F /* LynkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C516131E99C44600392D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Prasanth Ramineni";
+				TargetAttributes = {
+					02C5161A1E99C44600392D3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEF4QE844H;
+						ProvisioningStyle = Automatic;
+					};
+					02C516311E99C44600392D3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEF4QE844H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02C5161A1E99C44600392D3F;
+					};
+					02C5163C1E99C44600392D3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEF4QE844H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02C5161A1E99C44600392D3F;
+					};
+				};
+			};
+			buildConfigurationList = 02C516161E99C44600392D3F /* Build configuration list for PBXProject "Lynk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C516121E99C44600392D3F;
+			productRefGroup = 02C5161C1E99C44600392D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C5161A1E99C44600392D3F /* Lynk */,
+				02C516311E99C44600392D3F /* LynkTests */,
+				02C5163C1E99C44600392D3F /* LynkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C516191E99C44600392D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C5162C1E99C44600392D3F /* LaunchScreen.storyboard in Resources */,
+				02C516291E99C44600392D3F /* Assets.xcassets in Resources */,
+				02C516241E99C44600392D3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C516301E99C44600392D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C5163B1E99C44600392D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C516171E99C44600392D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02835CC51E99D2420060E28F /* DataModel.swift in Sources */,
+				02C516211E99C44600392D3F /* MainViewController.swift in Sources */,
+				02C516271E99C44600392D3F /* Lynk.xcdatamodeld in Sources */,
+				02835CC81E99D9690060E28F /* TableViewCell.swift in Sources */,
+				02C5161F1E99C44600392D3F /* AppDelegate.swift in Sources */,
+				02835CC31E99CE040060E28F /* MainVCModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C5162E1E99C44600392D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C516371E99C44600392D3F /* LynkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C516391E99C44600392D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C516421E99C44600392D3F /* LynkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C516341E99C44600392D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C5161A1E99C44600392D3F /* Lynk */;
+			targetProxy = 02C516331E99C44600392D3F /* PBXContainerItemProxy */;
+		};
+		02C5163F1E99C44600392D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C5161A1E99C44600392D3F /* Lynk */;
+			targetProxy = 02C5163E1E99C44600392D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C516221E99C44600392D3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C516231E99C44600392D3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C5162A1E99C44600392D3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C5162B1E99C44600392D3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C516441E99C44600392D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C516451E99C44600392D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C516471E99C44600392D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = Lynk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Lynk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02C516481E99C44600392D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = Lynk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Lynk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02C5164A1E99C44600392D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = LynkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LynkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lynk.app/Lynk";
+			};
+			name = Debug;
+		};
+		02C5164B1E99C44600392D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = LynkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LynkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lynk.app/Lynk";
+			};
+			name = Release;
+		};
+		02C5164D1E99C44600392D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = LynkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LynkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lynk;
+			};
+			name = Debug;
+		};
+		02C5164E1E99C44600392D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VEF4QE844H;
+				INFOPLIST_FILE = LynkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LynkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lynk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C516161E99C44600392D3F /* Build configuration list for PBXProject "Lynk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C516441E99C44600392D3F /* Debug */,
+				02C516451E99C44600392D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C516461E99C44600392D3F /* Build configuration list for PBXNativeTarget "Lynk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C516471E99C44600392D3F /* Debug */,
+				02C516481E99C44600392D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C516491E99C44600392D3F /* Build configuration list for PBXNativeTarget "LynkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C5164A1E99C44600392D3F /* Debug */,
+				02C5164B1E99C44600392D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C5164C1E99C44600392D3F /* Build configuration list for PBXNativeTarget "LynkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C5164D1E99C44600392D3F /* Debug */,
+				02C5164E1E99C44600392D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02C516251E99C44600392D3F /* Lynk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02C516261E99C44600392D3F /* Lynk.xcdatamodel */,
+			);
+			currentVersion = 02C516261E99C44600392D3F /* Lynk.xcdatamodel */;
+			path = Lynk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02C516131E99C44600392D3F /* Project object */;
+}
